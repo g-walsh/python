@@ -5,7 +5,6 @@ Usage: exch <amount> <src currency> <dest currency>
 Example: exch 5 usd eur"""
 
 from albertv0 import *
-import urllib
 from urllib.request import urlopen
 import re
 
