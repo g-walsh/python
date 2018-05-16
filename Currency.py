@@ -34,7 +34,7 @@ def handleQuery(query):
             reDict = {
                 urlGo: '<div id=currency_converter_result>.*<span class=bld>(\d+\.\d+).*</span>',
                 urlXE: '<span class=\'uccResultAmount\'>(\d+\.\d+).*</span>',
-                urlYa: '<span class=.*convert-to.*>(\d+(\.\d+)?)'
+                urlYa: '<span class=.*convert-to.*>(\d+\.\d+).*</span>'
                 }
 
             # Loop over the urls in the order of the list.
